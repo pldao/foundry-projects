@@ -64,3 +64,17 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### install
+```shell
+forge init --force .
+forge install OpenZeppelin/openzeppelin-contracts
+forge install OpenZeppelin/openzeppelin-contracts-upgradeable
+
+```
+
+remappings.txt
+```txt
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts
+```
